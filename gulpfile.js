@@ -43,7 +43,7 @@ function browserSyncServe(cb) {
 	gulp.task('webserver', function() {
 	    browserSync({
 	        server: {
-	            baseDir: "https://im8kritika.github.io/wordle-/"
+	            baseDir: "https://im8kritika.github.io/wordle-dev/"
 	        }
 	    });
 	});
