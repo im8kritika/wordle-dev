@@ -1,0 +1,34 @@
+{
+  "name": "gulp-sass-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal Gulp workflow to compile Sass",
+  "keywords": [],
+  "author": "Jessica Chan (Coder Coder)",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "cssnano": "^5.1.15",
+    "dart-sass": "^1.25.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.32",
+    "sass": "^1.69.5"
+  },
+  "browserslist": [
+    "last 1 version",
+    "IE 11",
+    "> 1%"
+  ],
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

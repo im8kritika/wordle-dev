@@ -1,0 +1,27 @@
+@use '../util' as *;
+
+.not_in_the_list{
+    opacity: 0;
+    position: absolute;
+
+        &--visible {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: rem(50);
+        width: 7.125rem;
+        background-color: aliceblue;
+        color: black;
+        text-transform: none;
+        border: rem(2) solid oldlace;
+        border-radius: 0.5rem;
+        font-size: rem(10);
+        font-weight: bold;
+        }
+}
+
